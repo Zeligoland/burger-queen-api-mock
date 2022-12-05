@@ -60,3 +60,13 @@ authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlL
     "status": "pending",
     "dataEntry": "2022-03-05 15:00"
 }
+
+POST http://localhost:8080/users HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY3MDI1NzcxOCwiZXhwIjoxNjcwMjYxMzE4LCJzdWIiOiIyIn0.VQc4ErUDioDDxV_QuaBRJM6D3oOWNG7Ik6TvNRC7kQo
+
+{
+  "email": "mesero@burgerqueen.com",
+  "password": "123456",
+  "role": "mesero"
+}

@@ -102,6 +102,12 @@
       "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
       "role": "admin",
       "id": 2
+    },
+    {
+      "email": "mesero@burgerqueen.com",
+      "password": "$2a$10$ZvhoQcov8rlLcE480QVv/.3CHT3jeO8BRFqJOF8ZypZzZkeUi/5fu",
+      "role": "mesero",
+      "id": 3
     }
   ]
 }
